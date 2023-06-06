@@ -1,0 +1,24 @@
+.about-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-laptopimage {
+  width: 65%;
+}
+.about-mobileimage {
+  width: 100%;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .about-laptopimage {
+    width: 65%;
+    display: none;
+  }
+  .about-mobileimage {
+    width: 100%;
+    display: flex;
+  }
+}
